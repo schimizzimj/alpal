@@ -1,9 +1,9 @@
 section.home {
   width: 100%;
   height: calc(100vh - 80px);
-  display: grid;
-  grid-template-columns: 35% auto;
-  grid-template-rows: calc(100% - 80px);
+  // display: grid;
+  // grid-template-columns: 35% auto;
+  // grid-template-rows: calc(100% - 80px);
   overflow: hidden;
   background-image: url("../../images/stars.jpg");
 
@@ -19,7 +19,9 @@ section.home {
   }
 
   .left {
-    grid-column: 1;
+    // grid-column: 1;
+    float: left;
+    width: 35%;
     position: relative;
   }
 
@@ -50,7 +52,9 @@ section.home {
   }
 
   .right {
-    grid-column: 2;
+    // grid-column: 2;
+    float: right;
+    width: 65%;
   }
 
   .textBlock {
