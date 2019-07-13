@@ -1,0 +1,49 @@
+@import "../colors.scss";
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Raleway';
+  font-weight: normal;
+  font-size: 1.5rem;
+  min-height: 80px;
+  line-height: 80px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:active {
+    color: $pink;
+  }
+
+  .leftLinks {
+    float: left;
+
+  }
+
+  .leftLinks a {
+    padding: 0 2rem;
+  }
+
+  .leftLinks a:hover {
+    color: $pink;
+  }
+
+  .rightLinks {
+    float: right;
+    font-size: 1.8rem;
+  }
+
+  .rightLinks a {
+    padding: 0.5rem;
+    border: 3px solid black;
+    border-radius: 15px;
+  }
+
+  .rightLinks a:hover {
+    color: $pink;
+    border-color: $pink;
+  }
+}

@@ -620,3 +620,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Oleo+Script+Swash+Caps|Raleway:100,200,300,400,500,600,700&display=swap');
+
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Lora', serif;
