@@ -1,12 +1,11 @@
 section.home {
-  background-image: url("../../images/stars.jpg");
-  // background-color: orange;
   width: 100%;
   height: calc(100vh - 80px);
   display: grid;
   grid-template-columns: 35% auto;
   grid-template-rows: calc(100% - 80px);
   overflow: hidden;
+  background-image: url("../../images/stars.jpg");
 
   h1 {
     color: white;
@@ -29,7 +28,7 @@ section.home {
     position: absolute;
     left: 0;
     top: 0;
-    animation: books-slidein 6s;
+    animation: books-slidein 3s;
     // animation-delay: 4s;
   }
 
@@ -38,7 +37,7 @@ section.home {
     position: absolute;
     top: 27%;
     left: 0;
-    animation: keys-slidein 4s;
+    animation: keys-slidein 2s;
     // animation-delay: 2s;
   }
 
@@ -47,7 +46,7 @@ section.home {
     position: absolute;
     left: 0;
     top: 59%;
-    animation: camera-slidein 2s;
+    animation: camera-slidein 1s;
   }
 
   .right {
